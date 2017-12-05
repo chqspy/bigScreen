@@ -1,7 +1,7 @@
 $(function(){
 	initMap();
 	buildeventtable();
-	init_event_detail_li();
+	init_event_detail_li();alert(1);
 });
 
 /*事件处理情况-柱状图start*/
