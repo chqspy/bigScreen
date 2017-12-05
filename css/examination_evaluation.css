@@ -1,0 +1,116 @@
+/*区域考核评价*/
+.region_check_evaluate_div{
+	width: 60%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+	overflow: auto;
+}
+/*总体评分*/
+.total_score_div{
+	width: 39.5%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}
+/*镇/街级单位的考核评价评分排名*/
+.score_count_div{
+	width: 39.5%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}
+/*评分统计*/
+.region_unit_score_div{
+	width: 60%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}
+/*群众满意度*/
+.region_administration_ability_div{
+	width: 39.5%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}
+/*区域行政能力*/
+.masses_satisfied_div{
+	width: 60%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.resource_distribution_all_content_div{
+	width: 20%;
+	height: 35%;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: inline-table;
+}
+.resource_distribution_all_icon_div{
+	width: 40%;
+	height: 60%;
+	background-color: #269ABC;
+}
+.resource_distribution_all_title_div{
+	width: 40%;
+	height: 40%;
+	background-color: #1B6D85;
+	color: snow;
+	text-align: center;
+	line-height:230%; 
+	font-size: 20px;
+}
+.resource_distribution_all_value_div{
+	width: 60%;
+	height: 40%;
+	margin-top: -26%;
+	margin-left: 40%;
+	color: #D58512;
+	font-family:Arial,Verdana,Sans-serif;
+	font-size: 30px;
+}
+/*岗位考核评分排名*/
+.station_examine_rank{
+	width: 52%;
+	height:37%;
+	background-color: #265A88;
+	display: inline-block;
+}
+/*岗位考核评分统计*/
+.station_examine_count{
+	width: 47%;
+	height:37%;
+	background-color: #265A88;
+	display: inline-block;
+}
+/*岗位行政能力*/
+.station_administration_ability{
+	width: 47%;
+	height:62.5%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.swe_sba{
+	width: 52%;
+	height:62.5%;
+	display: inline-block;
+}
+
+
+
+/*岗位工作效率*/
+.station_work_efficiency{
+	width: 100%;
+	height:49.6%;
+	background-color: #265A88;
+	display: inline-block;
+}
+/*岗位业务量*/
+.station_business_amount{
+	width: 100%;
+	height:49.6%;
+	background-color: #265A88;
+	display: inline-block;
+}

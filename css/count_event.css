@@ -1,0 +1,79 @@
+li {
+	list-style-type:none;
+	line-height: 55px;
+}
+.event_source{
+	width: 40%;
+	height:30%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_deal_bar{
+	width: 40%;
+	height: 30%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_count{
+	width: 19.3%;
+	height:30%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_source_line{
+	width: 80%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_type{
+	width: 19.5%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_source_year_line{
+	width: 50%;
+	height:35%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_source_area_line{
+	width: 49.5%;
+	height:35%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_deal_pie{
+	width: 17.5%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_table{
+	width: 65%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-table;
+}
+.event_table_detail{
+	width: 34%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-table;
+}
+.event_table_detail_div{
+	height: 195px;
+}
+.letter_visit{
+	width: 49%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.hotspot_question{
+	width: 49.5%;
+	height:33%;
+	background-color: #265A88;
+	display: inline-block;
+}

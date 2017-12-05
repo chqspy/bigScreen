@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>count_event</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">  
+	<link rel="stylesheet" href="../css/bigscreen.css">  
+	<link rel="stylesheet" href="../css/count_event.css">  
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/echarts.min.js"></script>
+	<script src="../js/data_interface.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=NFnf8E7cG8mpL8j0BAmDonZyZmZzisXH"></script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>
+				<div class="content">
+					<div class="event_source">
+						<div class="eachert_title">事件来源统计</div>
+						<div class="eachert" id="event_source_bar_echart"></div>
+					</div>
+					<div class="event_deal_bar">
+						<div class="eachert_title">事件发生地区</div>
+						<div class="eachert" id="event_deal_bar_echart"></div>
+					</div>
+					<div class="event_count">
+						<div class="eachert_title">事件统计</div>
+						<div class="eachert" id="event_count_board_all_echart"></div>
+					</div>
+					<div class="event_source_line">
+						<div class="eachert_title">事件来源趋势-折线图</div>
+						<div class="eachert" id="event_source_line_echart"></div>
+					</div>
+					<div class="event_type">
+						<div class="eachert_title">事件类别统计</div>
+						<div class="eachert" id="event_type_pie_echart"></div>
+					</div>
+					<div class="event_source_year_line">
+						<div class="eachert_title">年度事件趋势-折线图</div>
+						<div class="eachert" id="event_source_line_year_echart"></div>
+					</div>
+					<div class="event_source_area_line">
+						<div class="eachert_title">事件发生地区趋势-折线图</div>
+						<div class="eachert" id="event_source_line_area_echart"></div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="content">
+					<div class="mapcontent" id="mapID"></div>
+				</div>
+			</td>
+			<td>
+				<div class="content">
+					<div class="letter_visit">
+						<div class="eachert_title">信访形式概况</div>
+						<div class="eachert" id="letter_visit_echart"></div>
+					</div>
+					<div class="hotspot_question">
+						<div class="eachert_title">热点问题概况</div>
+						<div class="eachert" id="hotspot_question_echart"></div>
+					</div>
+					<div class="letter_visit">
+						<div class="eachert_title">问题发生地区概况</div>
+						<div class="eachert" id="question_happen_region_echart"></div>
+					</div>
+					<div class="hotspot_question">
+						<div class="eachert_title">信访内容类型概况</div>
+						<div class="eachert" id="letter_content_type_echart"></div>
+					</div>
+					<div class="letter_visit">
+						<div class="eachert_title">集体访与普通访占比</div>
+						<div class="eachert" id="team_common_proportion_echart"></div>
+					</div>
+					<div class="hotspot_question">
+						<div class="eachert_title">信访目的占比</div>
+						<div class="eachert" id="letter_target_proportion_echart"></div>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+<script src="../js/count_event.js"></script>

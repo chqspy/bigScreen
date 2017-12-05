@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>resource_distribution</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">  
+	<link rel="stylesheet" href="../css/bigscreen.css"> 
+	<link rel="stylesheet" href="../css/resource_distribution.css"> 
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/echarts.min.js"></script>
+	<script src="../js/data_interface.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=NFnf8E7cG8mpL8j0BAmDonZyZmZzisXH"></script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>
+				<div class="content">
+					<div class="resource_distribution_div">
+						<div class="eachert_title">资源分布情况</div>
+						<div class="eachert" id="resource_distribution_div_echart"></div>
+						<div class="resource_distribution_bottom_div" id="resource_distribution_bottom_div"></div>
+					</div>
+					<div class="resource_distribution_all_div">
+						<div class="eachert_title">资源概括</div>
+						<div class="eachert" id="resource_distribution_all_div_echart"></div>
+					</div>
+					<div class="resource_distribution_status_pie">
+						<div class="eachert_title">资源状态占比</div>
+						<div class="eachert" id="resource_distribution_status_pie_echart"></div>
+					</div>
+					<div class="area_people_distribution_bar">
+						<div class="eachert_title">地区镇街人口分布</div>
+						<div class="eachert" id="area_people_distribution_bar_echart"></div>
+					</div>
+					<div class="resource_distribution_device_div">
+						<div class="eachert_title">设备概括</div>
+						<div class="eachert" id="resource_distribution_device_echart"></div>
+					</div>
+					<div class="resident_population_proportion_pie">
+						<div class="eachert_title">常驻人口比例</div>
+						<div class="eachert" id="resident_population_proportion_pie_echart"></div>
+					</div>
+					<div class="population_age_proportion_pie">
+						<div class="eachert_title">人口年龄比例</div>
+						<div class="eachert" id="population_age_proportion_pie_echart"></div>
+					</div>
+					<div class="population_sum_div">
+						<div class="eachert_title">人口总数</div>
+						<div class="eachert" id="population_sum_div"></div>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="content">
+					<div class="mapcontent" id="mapID"></div>
+				</div>
+			</td>
+			<td>
+				<div class="content">
+					
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+<script src="../js/resource_distribution.js"></script>

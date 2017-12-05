@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>h1</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">  
+	<link rel="stylesheet" href="../css/bigscreen.css">  
+	<link rel="stylesheet" href="../css/population_query.css">  
+	<link rel="stylesheet" href="../css/bootstrap-table.min.css">  
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap-table.js"></script>
+	<script src="../js/echarts.min.js"></script>
+	<script src="../js/data_interface.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=NFnf8E7cG8mpL8j0BAmDonZyZmZzisXH"></script>>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>
+				<div class="content">
+					<div class="person_query_fdiv">
+						<table>
+							<tr>
+								<td style="background-color: #204D74;" id="popolation_analysis" title="人口分析">人口分析</td>
+								<td id="popolation_list">人口列表</td>
+								<td id="senior_search">高级搜索</td>
+							</tr>
+						</table>
+					</div>
+					<!--人口分析start-->
+					<div style="height: 90%; width: 100%;" id="popolation_analysis_div">
+						<div class="four_div">
+							<div class="tjt_div" ><span class="tjt_span">民族分布</span></div>
+							<table class="nation_distribution" id="table_nation" cellspacing="" cellpadding=""></table>
+						</div>
+						<div class="nation_div" id="nation_echart"></div>
+						<div class="four_div">
+							<div class="tjt_div" ><span class="tjt_span">户籍地分布</span></div>
+							<table class="nation_distribution" id="table_register" cellspacing="" cellpadding=""></table>
+						</div>
+						<div class="nation_div" id="register_echart"></div>
+					</div>
+					<!--人口分析end-->
+					<!--人口列表start-->
+					<div style="height: 100%; width: 100%; display: none;">
+						
+					</div>
+					<!--人口列表end-->
+					<!--人口高级查询start-->
+					<div id="senior_search_div" style="height: 90%; width: 100%; display: none;">
+						<table class="senior_search_div_table">
+							<tr>
+								<td></td>
+								<td>姓名：</td>
+								<td><input class="senior_search_div_table_input_text" type="text"/></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>证件号：</td>
+								<td><input class="senior_search_div_table_input_text" type="text"/></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>性别：</td>
+								<td>
+									<input type="radio" class="checkbox_sex" name="sex" value="不限"><span class="checkbox_sex_span">不限</span>
+									<input type="radio" class="checkbox_sex" name="sex" value="男"><span class="checkbox_sex_span">男</span>
+									<input type="radio" class="checkbox_sex" name="sex" value="女"><span class="checkbox_sex_span">女</span>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>出生年份：</td>
+								<td>
+									<select class="birthday_select">
+										<option>请选择</option>
+										<option>1995年</option>
+										<option>1994年</option>
+									</select>
+									<span style="font-size: 20px; position: relative;bottom: 2px;">-</span>
+									<select class="birthday_select">
+										<option>请选择</option>
+										<option>1月</option>
+										<option>2月</option>
+										<option>3月</option>
+										<option>4月</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>民族：</td>
+								<td>
+									<select class="birthday_select">
+										<option>请选择</option>
+										<option>壮族</option>
+										<option>汉族</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>户籍地：</td>
+								<td><input class="senior_search_div_table_input_text" type="text"/></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>居住地：</td>
+								<td><input class="senior_search_div_table_input_text" type="text"/></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>文化程度：</td>
+								<td><input class="senior_search_div_table_input_text" type="text"/></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>婚姻状况：</td>
+								<td>
+									<input type="radio" class="checkbox_sex" name="sex" value="不限"><span class="checkbox_sex_span">不限</span>
+									<input type="radio" class="checkbox_sex" name="sex" value="已婚"><span class="checkbox_sex_span">已婚</span>
+									<input type="radio" class="checkbox_sex" name="sex" value="未婚"><span class="checkbox_sex_span">未婚</span>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td><input class="senior_search_div_table_input_text" type="button" value="搜索"></td>
+							</tr>
+						</table>
+					</div>
+					<!--人口高级查询end-->
+				</div>
+			</td>
+			<td>
+				<div class="content">
+					<div class="mapcontent" id="mapID"></div>
+				</div>
+			</td>
+			<td>
+				<div class="content">
+					
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+<script src="../js/population_query.js"></script>
+</html>

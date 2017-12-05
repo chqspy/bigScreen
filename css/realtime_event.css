@@ -1,0 +1,52 @@
+li {
+	list-style-type:none;
+	line-height: 55px;
+}
+.event_deal_bar{
+	width: 60%;
+	height: 35%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_count{
+	width: 39.5%;
+	height:35%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_source{
+	width: 60%;
+	height:30%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_type{
+	width: 19.7%;
+	height:30%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_deal_pie{
+	width: 19.6%;
+	height:30%;
+	background-color: #265A88;
+	display: inline-block;
+}
+.event_table{
+	width: 60%;
+	height:35%;
+	background-color: #265A88;
+	display: inline-table;
+}
+.event_table_detail{
+	width: 39.5%;
+	height:35%;
+	background-color: #265A88;
+	display: inline-table;
+}
+.event_table_detail_div{
+	height: 35%;
+}
+.fixed-table-header{
+	scrollbar-face-color: red;
+}

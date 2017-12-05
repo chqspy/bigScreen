@@ -1,0 +1,138 @@
+.person_query_fdiv{
+	font-size: 14px;
+	height: 4%;
+	width: 1930px;
+	text-align: center;
+}
+.four_div{
+	height: 25%;
+}
+.person_query_fdiv table{
+	height: 30px;
+	width: 30%;
+	margin:auto;
+}
+.person_query_fdiv td{
+	height: 30px;
+	border-left:1px solid;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-right: 1px solid;
+	color: white;
+	cursor: pointer;
+}
+.nation_distribution{
+	top: 50px;
+}
+.nation_distribution td{
+	/*border-left:5px solid;
+	border-top:5px solid;
+	border-bottom:5px solid;
+	border-right: 5px solid;*/
+	width: 190px;
+	height: 70px;
+	color: white;
+}
+.nation_distribution ul{
+	width: 80%;
+	height: 80%;
+	background-color: #204D74;
+	border-radius: 8px;
+	text-align: center;
+	cursor: pointer;
+	right: 0px;
+}
+.nation_distribution li{
+	position: relative;
+	top: 9px;
+	right: 17px;
+	list-style-type:none;
+	height: 20px;
+	width: 100%;
+	text-align: center;
+}
+.mapcontent{
+	height: 94%;
+}
+.nation_div{
+	height: 24%;
+	top: 0px;
+	right: 0px;
+}
+.tjt_span{
+	color: white; 
+	font-size: 30px;
+}
+.tjt_div{
+	height: 50px;
+}
+/*高级查询样式start*/
+.senior_search_div_table{
+	height: 80%;
+	width: 100%;
+	border: white;
+}
+.senior_search_div_table tr{
+	height: 10%;
+	width: 100%;	
+}.senior_search_div_table td{
+	/*border-left:5px solid;
+	border-top:5px solid;
+	border-bottom:5px solid;
+	border-right: 5px solid;*/	
+	border-color: white;
+	color: white;
+	font-size: 18px;
+}
+.senior_search_div_table_input_text{
+	BACKGROUND-COLOR: transparent;
+	height: 40%;
+	width: 26%;
+	border-left:1px solid;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-right: 1px solid;
+	border-radius: 6px;
+	outline:none;
+}
+.senior_search_div_table_input_radio{
+	height: 50%;
+}
+.left_td{
+	text-align: right;
+	width: 42%;
+}
+.center_td{
+	width: 5%;
+	text-align: left;
+}
+.right_td{
+	position: relative;
+	left: 10px;
+}
+.checkbox_sex{
+	width: 40px;
+	height: 35%;
+	position: relative;
+	bottom: 3px;
+}
+.checkbox_sex_span{
+	font-size: 18px;
+	position: relative;
+	bottom: 9px;
+}
+.birthday_select{
+	width: 120px;
+	BACKGROUND-COLOR: transparent;
+	border-left:1px solid;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-right: 1px solid;
+	border-radius: 6px;
+	height: 40%;
+	outline:none;
+}
+.birthday_select option{
+	background-color: #204D74;
+}
+/*高级查询样式end*/
